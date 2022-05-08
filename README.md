@@ -6,48 +6,7 @@ A bot for streaming in Telegram live streams.
 
 ### Use a Cloud Platform
 
-[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/callsmusic/trtmp)
-
-### Manually
-
-#### Prerequisites
-
-- [youtube-dl](http://ytdl-org.github.io/youtube-dl/)
-
-#### Install
-
-1. Create a new directory.
-
-```bash
-mkdir trtmp && cd $_
-```
-
-2. Download a binary from the
-   [latest release](https://github.com/callsmusic/trtmp/releases/latest). If
-   you’re on Debian or a Debian-based Linux distribution, you can just run the
-   following:
-
-```bash
-curl -s https://raw.githubusercontent.com/callsmusic/trtmp/main/scripts/install.debian.sh | bash
-```
-
-#### Configure
-
-In order to configure the bot, you have to set the following environmental
-variables:
-
-- `BOT_TOKEN`
-- `RTMP_KEY`
-- `RTMP_URL`
-
-Or put them in a `.env` in the directory.
-
-#### Run
-
-```bash
-chmod +x ./your_binary # Only for Unix-like systems.
-./your_binary
-```
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jarepolist/tgrtmpbot)
 
 ## Commands
 
